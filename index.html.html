@@ -2,33 +2,83 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Yantramanav" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap and custom style sheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/master.css">
-    <title>Home Poterie La Coccinelle</title>
+    <title>Poterie 'La Coccinelle'</title>
   </head>
   <body>
+    <!-- complete content of home page -->
     <div class="container">
-      <!-- Header Section -->
-      <div class="header">
-        <h1>Poterie 'La Coccinelle'</h1>
-      </div>
-      <!-- Links -->
-        <div class="links">
-          <div class="gallery">
-            <a href="http://www.poterie-coccinelle.ch/">Gallery</a>
-          </div>
-          <div class="about">
-            <h2>About me</h2>
-          </div>
-          <div class="children">
-            <h2>Children's Work</h2>
-          </div>
-          <div class="contact">
-            <h2>Contact Details</h2>
-          </div>
+      <!-- header -->
+      <header class="row text-center">
+        <div class="col-md-6 text-left">
+          <img class="logo" src="pictures/logo.svg" alt="Logo">
         </div>
-      </div>
+        <div class="col-md-6 text-right">
+          <h1>Poterie 'La Coccinelle'</h1>
+          <h4>Rebecca Lötscher</h4>
+          <h4>Buchackerweg 12</h4>
+          <h4>5023 Biberstein</h4>
+        </div>
+      </header>
+      <!-- devider header/main -->
+      <section class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </section>
+      <!-- title picture -->
+      <article class="row">
+        <div class="col-md-12">
+          <img class="img-responsive" src="pictures/hand.jpg" alt="Hand mit Ton">
+        </div>
+      </article>
+      <!-- title -->
+      <section class="row">
+        <div class="col-md-12 text-center">
+          <h1>Impressionen</h1>
+        </div>
+      </section>
+      <!-- main content incl. links -->
+      <section class="row main">
+        <!-- Rauchbrand section -->
+        <article class="col-md-4 text-center">
+          <img src="pictures/rauchbrand.jpg" alt="Vase in Rauchbrand">
+         <h3>
+           <a href="#">Rauchbrand</a>
+         </h3>
+        </article>
+        <!-- Sonstiges section -->
+        <article class="col-md-4 text-center">
+          <img src="pictures/bowls_q_250.jpg" alt="">
+          <h3>
+            <a href="#">Gebrauchsgeschirr/Vasen etc.</a>
+          </h3>
+        </article>
+        <!-- Kinder section -->
+        <article class="col-md-4 text-center">
+          <img src="pictures/eule_q_250.jpg" alt="">
+          <h3>
+            <a href="#">Töpfern mit Kindern</a>
+          </h3>
+        </article>
+      </section>
+      <!-- devider main/footer -->
+      <section class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </section>
+      <!-- footer -->
+      <footer class="row">
+        <div class="col-md-12 text-center">
+          <p>designed by r-design</p>
+        </div>
+      </footer>
 
-
-
+    </div>
   </body>
 </html>
