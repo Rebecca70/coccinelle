@@ -12,6 +12,17 @@ a:hover {
   color: black;
 }
 
+img {
+  padding: 1em;
+}
+
 .logo {
   padding-top: 1.5em;
+}
+
+.custom-button {
+  background-color: inherit;
+  color: inherit;
+  margin: 2em;
+  border-radius: 0px;
 }
