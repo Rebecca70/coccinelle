@@ -1,2 +1,2 @@
 # coccinelle
-# new webpage for Poterie 'La Coccinelle'
+new webpage for Poterie 'La Coccinelle'
