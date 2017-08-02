@@ -20,6 +20,11 @@ img {
   padding-top: 1.5em;
 }
 
+.mail {
+  color: inherit;
+  text-decoration: underline;
+}
+
 .custom-button {
   background-color: inherit;
   color: inherit;
